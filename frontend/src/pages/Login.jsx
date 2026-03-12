@@ -20,7 +20,7 @@ const Login = () => {
     setError('');
 
     try {
-      const response = await fetch('http://localhost:8000/auth/login', {
+      const response = await fetch('https://pathfinderai2026-1.onrender.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
